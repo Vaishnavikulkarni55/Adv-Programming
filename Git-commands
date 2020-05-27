@@ -1,4 +1,4 @@
-4  cd Full Stack Dev
+4  cd  Desktop
     5  li
     6  cls
     7  clear
@@ -25,11 +25,11 @@
    28  clear
    29  touch file1.txt
    30  ls
-   31  echo "Dhyananhita.org" > file1.txt 
+   31  echo "vaishnaviram55" > file1.txt 
    32  cat file1.txt 
-   33  echo "Anil@dhyananhita.org" > file1.txt 
+   33  echo "vaishnaviram55@gmail.com > file1.txt 
    34  cat file1.txt 
-   35  echo "Dhyanahita.org" >> file1.txt 
+   35  echo "vaishnavi55" >> file1.txt 
    36  cat file1.txt 
    37  rm help
    38  rm --help
@@ -48,7 +48,7 @@
    51  cat file1.txt 
    52  clear
    53  exit
-   54  git clone https://github.com/Anil-a431/Git-Learning.git
+   54  git clone https://github.com/Vaishnavikulkarni55/Adv-Programming/edit/master/Git-commands 
    55  exit
    56  git pull Git-Learning master
    57  exit
@@ -78,8 +78,8 @@
    81  clear
    82  git commit -m "First Commit
    83  git commit -m "First Commit"
-   84  git config --global user.email "madishettyanilkumar9@gmail.com"
-   85  git config --global user.name "Anilkumar"
+   84  git config --global user.email "vaishnaviram55@gmail.com"
+   85  git config --global user.name "vaishnavi"
    86  git config user,email
    87  git config user.email
    88  git config user.name
@@ -108,7 +108,7 @@
   111  ls
   112  git remote -help
   113  clear
-  114  git remote add  Git-Learning https://github.com/Anil-a431/Git-Learning
+  114  git remote add  https://github.com/Vaishnavikulkarni55/Adv-Programming/edit/master/Git-commands
   115  git remote show
   116  git remote -v
   117  git pull -help
