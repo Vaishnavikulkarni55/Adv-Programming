@@ -1,0 +1,72 @@
+1)WAP to check sum of even index elements of an array is a prime num or not
+
+10,23,45,22,65,87,33
+
+#include<stdio.h>
+int main()
+{
+	int a[10],i,n,count=0,sum=0;
+	scanf("%d",&n);
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	for(i=0;i<n;i++)
+	{
+		if(i%2==0)
+		{
+			sum=sum+a[i];
+		}
+	}
+	for(i=2;i<=sum/2;i++)
+	{
+		if(sum%i==0)
+		{
+			count++;
+		}
+	}
+	if(count==0)
+	{
+		printf("Prime");
+	}
+	else
+	{
+		printf("Not a prime");
+	}
+}
+
+
+2)Accept a num
+12345678
+Find sum of digits at even places and check whether the sum is prime or not
+7+5+3+1=16
+
+#include<stdio.h>
+int main()
+{
+	int n,r,count=0,sum=0,cnt=0,i;
+	scanf("%d",&n);
+	while(n!=0)
+	{
+		r=n%10;
+		count++;
+		if(count%2==0)
+		{
+			sum=sum+r;
+		}
+		n/=10;
+	}
+	for(i=2;i<=sum/2;i++)
+	{
+		if(sum%i==0)
+		{
+			cnt++;
+		}
+	}
+	if(cnt==0)
+	{
+		printf("%d",sum);
+	}
+	else
+	printf("Sum is not prime");
+}
